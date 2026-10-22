@@ -1,0 +1,5 @@
+So this No Tumor file has a box, but the box does not mean “tumor here”.
+It just covers the brain. This is the trap the project warned about.
+If we train YOLO with these boxes, it learns “big box = No Tumor”,
+which is not real detection.
+Later we will remove No Tumor from the detection part and keep it only for classification.
