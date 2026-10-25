@@ -1,3 +1,5 @@
+Project name: Brain MRI Tumor Classification and Detection
+
 So this No Tumor file has a box, but the box does not mean “tumor here”.
 It just covers the brain. This is the trap the project warned about.
 If we train YOLO with these boxes, it learns “big box = No Tumor”,
