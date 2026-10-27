@@ -3,9 +3,6 @@ data/
 *.csv
 
 # Models and training outputs
-models/*.keras
-models/*.h5
-models/*.pt
 runs/
 *.weights.h5
 
@@ -35,3 +32,5 @@ Thumbs.db
 # Misc
 *.log
 *.zip
+yolo_data/
+yolo_data.zip
