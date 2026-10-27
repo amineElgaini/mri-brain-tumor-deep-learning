@@ -1,0 +1,15 @@
+{
+  "classifier": {
+    "images": 511, "accuracy": 0.851, "macro_f1": 0.861,
+    "per_class": {
+      "Glioma":     {"precision": 0.934, "recall": 0.804, "f1": 0.864},
+      "Meningioma": {"precision": 0.789, "recall": 0.734, "f1": 0.761},
+      "No Tumor":   {"precision": 0.959, "recall": 0.921, "f1": 0.940},
+      "Pituitary":  {"precision": 0.787, "recall": 0.993, "f1": 0.878}
+    }
+  },
+  "detector": {
+    "images": 435, "map50": 0.888, "map50_95": 0.632,
+    "per_class_map50": {"Glioma": 0.904, "Meningioma": 0.944, "Pituitary": 0.816}
+  }
+}
